@@ -2,7 +2,7 @@ import React from 'react';
 
 const Todos = ({todos, deleteTodo}) => {
 
-    const todoList = todos.length ? (
+    const todoList = todos.length ? (guit
         todos.map(todo => {
             return(
                 <div className="collection-item" key={todo.id}>
